@@ -18,19 +18,12 @@
     "win": {
       "icon": "/assists/icon.ico",
       "target": [
-        "zip",
-        "7z",
         "msi"
       ]
     },
     "linux": {
       "icon": "/assists/icon.png",
-      "target": [
-        "7z",
-        "tar.xz",
-        "tar.gz",
-        "zip"
-      ]
+      "target": []
     }
   },
   "scripts": {
