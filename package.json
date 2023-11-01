@@ -27,7 +27,7 @@
     }
   },
   "scripts": {
-    "build": "npx electron-builder -lw"
+    "build": "npx electron-builder"
   },
   "author": "Abdullah Aly",
   "license": "MIT"
