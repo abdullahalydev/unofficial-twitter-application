@@ -1,0 +1,41 @@
+{
+  "name": "X",
+  "description": "unofficial twitter desktop application",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "electron": "^27.0.2",
+    "electron-builder": "^24.6.4"
+  },
+  "build": {
+    "appId": "com.desk.x.app",
+    "directories": {
+      "output": "build"
+    },
+    "win": {
+      "icon": "/assists/icon.ico",
+      "target": [
+        "zip",
+        "7z",
+        "msi"
+      ]
+    },
+    "linux": {
+      "icon": "/assists/icon.png",
+      "target": [
+        "7z",
+        "tar.xz",
+        "tar.gz",
+        "zip"
+      ]
+    }
+  },
+  "scripts": {
+    "build": "npx electron-builder -lw"
+  },
+  "author": "Abdullah Aly",
+  "license": "MIT"
+}
