@@ -4,17 +4,7 @@ This is an unofficial application for X (Twitter) Desktop. It is not affiliated 
 
 # Description
 
-This application is a desktop client for X (Twitter) that allows you to manage your repositories, create new ones, and perform other tasks without having to use the X (Twitter) website. It is built using Electron and is available for Windows, macOS, and Linux.
-Features
-
-- View and manage your X (Twitter) repositories
-- Create new repositories
-- Clone existing repositories
-- Commit changes and push them to X (Twitter)
-- View and manage issues and pull requests
-- View and manage branches and tags
-- View and manage collaborators and teams
-- and more
+This application is a desktop client for X (Twitter) that allows you to acces on your twitter account
 
 # Getting Started
 
