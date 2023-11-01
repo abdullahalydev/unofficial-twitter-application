@@ -1,8 +1,6 @@
 const electron = require("electron");
 const path = require("path");
 
-const desk = require("../desk")
-
 class ElectronApplication {
 	static createElectronWindow() {
 		const Window = new electron.BrowserWindow({
